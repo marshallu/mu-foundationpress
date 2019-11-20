@@ -1,0 +1,518 @@
+/*
+ Global styles for FoundationPress
+ Demo: http://foundationpress.olefredrik.com
+*/
+
+// Prettify type rendering
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+    background: #5E6959;
+}
+
+// Reset margin and padding on figure element
+figure {
+	margin: 0;
+	padding: 0;
+}
+
+// Add some basic styling for figcaption element
+figcaption {
+	margin-bottom: rem-calc(20);
+	margin-top: rem-calc(10);
+	color: #6f6f6f;
+}
+
+// Add the alignment classes used by the WordPress media library
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.full-width {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+}
+
+blockquote.alignleft,
+img.alignleft {
+	margin: rem-calc(7) rem-calc(24) rem-calc(7) 0;
+}
+
+.wp-caption.alignleft {
+	margin: rem-calc(7) rem-calc(14) rem-calc(7) 0;
+}
+
+blockquote.alignright,
+img.alignright {
+	margin: rem-calc(7) 0 rem-calc(7) rem-calc(24);
+}
+
+.contain-to-grid {
+    background: #9BBBB0;
+    padding-top: 30px;
+}
+
+.contain-to-grid .top-bar {
+    max-width: 75rem;
+}
+
+.top-bar {
+    background: #FFF;
+    overflow: visible;
+    height: 8.5rem;
+    line-height: 3rem;
+}
+
+.top-bar .name {
+    height: 7rem;
+    margin-top: .9rem;
+}
+
+.top-bar .name h1 a {
+    color: black;
+    line-height: 7rem;
+}
+
+.top-bar-container {
+	margin-bottom: 0 !important;
+}
+
+.container {
+	background: #5E6959;
+	padding-top: 15px;
+}
+
+.row {
+    max-width: 75rem;
+}
+
+#footer-container {
+	background: #9BBBB0;
+	border-top: none !important;
+    margin-top: 0px !important;
+    padding-top: 10px;
+}
+
+#footer-container #footer {
+    max-width: 75rem !important;
+    background: #5E6959;
+}
+
+.content-area {
+	background: white;
+}
+
+#sidebar {
+	color: #9BBBB0;
+}
+
+#sidebar ul li a {
+	color: #9BBBB0;
+}
+
+#sidebar h6 {
+	    color: white;
+}
+
+.button {
+	background-color: #9BBBB0;
+}
+
+
+.button:hover {
+	background-color: #5E6959;
+}
+
+
+
+
+.top-bar-section li:not(.has-form) a:not(.button),
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+
+    background: #FFF;
+}
+
+.top-bar-section ul li>a,
+.top-bar-section ul li>a:hover,
+.top-bar-section li:not(.has-form) a:not(.button), 
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+
+    color: #999;
+    font-size: .75rem;
+    font-weight: normal;
+}
+
+.divider {
+	display: none;
+}
+
+
+.foundation-menu {
+    float: right;
+    width: 100%;
+    height: 49px;
+    background-image: url('http://foundation:8888/wp-content/uploads/2015/11/menuBg.png');
+    background-repeat: repeat-x;
+    padding-bottom: 3em;
+    padding: 0px;
+
+}
+
+.foundation-menu a {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 4;
+    margin-left: 10px;
+}
+
+.foundation-menu a:hover {
+    border-bottom: 1px solid white;
+}
+
+.menu-container {
+background-color: #5E6959;
+}
+
+.foundation-menu ul li {
+	    list-style-type: none;
+	    display: inline;
+}
+
+
+.last-footer {
+	background-color: #9BBBB0;
+	padding: 10px 0;
+	font-size: 10px;
+    color: #5E6959;
+}
+
+article#post-4 header h1.entry-title {
+display: none;
+}
+
+
+.last-footer a {
+    color:white;
+    text-decoration: underline;
+}
+
+.last-footer a:hover {
+    text-decoration: none;
+}
+
+// Mobile Top Bar
+
+.tab-bar {
+    background: white;
+    height: 4.5rem;
+    line-height: 4.5rem;
+}
+
+.tab-bar .menu-icon span::after {
+    box-shadow: 0 0 0 1px #5E6959,0 7px 0 1px #5E6959,0 14px 0 1px #5E6959;
+}
+
+.left-off-canvas-menu {
+    background: #5E6959
+}
+
+.tab-bar .menu-icon {
+    height: 4.5rem;
+}
+
+
+.row article header {    
+    background: #9BBBB0;
+    padding-top: 1px;
+    margin-left: -15px;
+    margin-right: -15px;
+    height: 60px;
+}
+
+.row article header h1 {
+    color: white;
+    font-size: 1.65rem;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    padding-top: 3px;
+    float: left;
+}
+
+.row article header img {
+    float: right;
+    padding-top: 5px;
+}
+// #sidebar {
+//         padding-left: 2.5rem !important;
+// }
+
+#sidebar .textwidget p {
+    line-height: 1.2;
+}
+
+.contain-to-grid .top-bar, .row, #footer-container #footer{
+    max-width: 85rem !important;
+}
+
+
+abbr, acronym {
+    color: #FFF;
+}
+
+#sidebar h6 {
+    font-weight: bold;
+}
+
+
+a {
+    color: #9BBBB0;
+}
+
+.page-bar ul {
+    list-style-type: none;
+}
+
+#main-page-nav .row {
+    background-color: #5F9638;
+    background: url('http://muwww03-dev.marshall.edu/foundation-dev/files/menu_background.png') !important;
+    height: 3em;
+}
+
+.page-bar, .page-bar .top-bar-section ul li>a, .page-bar .top-bar-section ul li>a:hover, .page-bar .top-bar-section li:not(.has-form) a:not(.button), .page-bar .top-bar-section li:not(.has-form) a:not(.button):hover {
+    color: #FFF;
+    font-size: .75rem;
+    font-weight: normal;
+    background-color: #5F9638;
+    background: url('http://muwww03-dev.marshall.edu/foundation-dev/files/menu_background.png');
+    font-weight: bold;
+}
+
+
+.page-bar .top-bar-section .dropdown li:not(.has-form):not(.active)>a:not(.button),
+.page-bar .top-bar-section .dropdown li:not(.has-form):not(.active)>a:not(.button):hover,
+.page-bar .top-bar-section .dropdown li.active:not(.has-form) a:not(.button) {
+    background: #8EC63F;
+    margin-bottom: 2px;
+} 
+
+.page-bar .top-bar-section ul li>a:hover, 
+.page-bar .top-bar-section li:not(.has-form) a:not(.button):hover,
+.page-bar .top-bar-section .dropdown li:not(.has-form):not(.active)>a:not(.button):hover {
+    text-decoration: underline;
+}
+
+.tab-bar {
+    margin-bottom: 0 !important;
+}
+
+body .wooslider .slide-content {
+    margin: 0;
+}
+
+.wooslider {
+    margin: 0;
+    background: transparent;
+    border: none;
+    position: relative;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+     margin-left: -0.9375rem;
+    margin-right: -0.9375rem;
+        margin-top: -1.3rem;
+ }
+
+ .wooslider p {
+        margin-bottom: 0;
+ }
+
+ .slidetext {
+        padding: .9375rem;
+    background: rgba(0, 0, 0, 0.65);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+ }
+
+ .green-box {
+    background: #8DC63F;
+        color: #5E6959;
+          margin-left: -0.9375rem;
+    margin-right: -0.9375rem;
+    margin-top: -1.3rem;
+    padding-top: 1px;
+ }
+
+ .green-box a {
+    color:white;
+ }
+
+ .green-box p {
+      margin-left: 0.9375rem;
+    margin-right: 0.9375rem;
+    margin-top: 0.9375rem;
+ }
+
+body .wooslider .wooslider-control-nav {
+    display: none;
+}
+
+#footer-container #footer,
+#footer-container #footer a {
+    color: white;
+}
+
+.container h1 {
+    font-size: 1.5rem;
+}
+
+.homepage-icons {
+    font-size: 4rem;
+    padding: 0 5px;
+    
+}
+
+.left-side-bar-area {
+    background: #e1eae7;
+    padding-top: 10px;
+}
+
+
+.left-side-bar-area ul {
+    list-style: none;
+}
+
+.left-side-bar-area ul a {
+    color: #5E6959 !important;
+}
+
+.left-side-bar-area ul a:hover,
+.left-side-bar-area ul a:active,
+.left-side-bar-area ul a:focus {
+    background: #C3D6D0;
+    color: white !important;
+}
+
+/*.container hr {
+    border: 0 !important;
+    height: 3px;
+    color: #5E6959 !important;
+    background-color: #5E6959 !important;
+    width: 100% !important;
+}*/
+
+hr .socialHR {
+    border: solid #5E6959;
+    height: 3px;
+}
+
+
+#social-media {
+    border-left: 5px solid #8DC63F; 
+    padding-left: 1em; 
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+#social-media span {
+    font-weight:600;
+}
+
+#social-media i {
+    padding-right: 5px;
+}
+
+@media (min-width: 1150px) {
+.large-3 {
+    width: 22%;
+}
+
+.large-9 {
+    width: 78%;
+}
+}
+
+h1, h2, h3, h4, h5, p, ul, ol, li, span, a, div {
+    font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;
+}
+
+p, blockquote, blockquote p, div, b {
+    color: #5E6959;
+}
+
+blockquote, blockquote p {
+    line-height: 1.6;
+    color: #222;
+    border: none;
+}
+
+#sidebar p {
+    color: #9BBBB0;
+}
+
+.wooslider p {
+    color: #fff;
+ }
+
+ .wooslider a {
+    color: #8DC63F;
+    text-decoration: underline;
+ }
+.news-archive a {
+    color: #8DC63F;
+}
+.news-archive ul {
+    list-style: none;
+    margin-left: 0 !important;
+}
+
+.news-archive ul:hover {
+    text-decoration: underline;
+}
+
+.call-out-text {
+    color: #00aaa1;
+    font-family: lucida, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.greenline {
+    color: #00aaa1;
+    width: 30%;
+    border: 0 !important;
+    background-color: #00aaa1;
+    height: 3px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.visual-form-builder fieldset {
+    clear: both;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    background-color: #fff;
+}
