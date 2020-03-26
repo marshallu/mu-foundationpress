@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The template for displaying the header
  *
@@ -11,115 +12,116 @@
 
 ?>
 <!doctype html>
-<html class="no-js" <?php language_attributes(); ?> >
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html class="no-js" <?php language_attributes(); ?>>
 
-		<link rel="icon" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/favicon.ico" type="image/x-icon">
-		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/apple-touch-icon-144x144-precomposed.png">
-		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/apple-touch-icon-114x114-precomposed.png">
-		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/apple-touch-icon-72x72-precomposed.png">
-		<link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/apple-touch-icon-precomposed.png">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<?php wp_head(); ?>
+    <link rel="icon" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/apple-touch-icon-precomposed.png">
 
-<style>
-body .wooslider .slide-content {
-    margin: 0;
-}
+    <?php wp_head(); ?>
 
-.wooslider {
-    margin: 0;
-    background: transparent;
-    border: none;
-    position: relative;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    -o-border-radius: 0;
-    border-radius: 0;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    -o-box-shadow: none;
-    box-shadow: none;
-     margin-left: -0.9375rem;
-    margin-right: -0.9375rem;
-        margin-top: -1.3rem;
- }
+    <style>
+        body .wooslider .slide-content {
+            margin: 0;
+        }
 
- .wooslider p {
- 	    margin-bottom: 0;
- }
+        .wooslider {
+            margin: 0;
+            background: transparent;
+            border: none;
+            position: relative;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            -o-border-radius: 0;
+            border-radius: 0;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            -o-box-shadow: none;
+            box-shadow: none;
+            margin-left: -0.9375rem;
+            margin-right: -0.9375rem;
+            margin-top: -1.3rem;
+        }
 
- .slidetext {
- 	    padding: .9375rem;
-    background: rgba(0, 0, 0, 0.65);
-    color: white;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
- }
+        .wooslider p {
+            margin-bottom: 0;
+        }
 
- .green-box {
- 	background: #8DC63F;
- 	    color: #5E6959;
- 	      margin-left: -0.9375rem;
-    margin-right: -0.9375rem;
-    margin-top: -1.3rem;
-    padding-top: 1px;
- }
+        .slidetext {
+            padding: .9375rem;
+            background: rgba(0, 0, 0, 0.65);
+            color: white;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
 
- .green-box a {
- 	color:white;
- }
+        .green-box {
+            background: #8DC63F;
+            color: #5E6959;
+            margin-left: -0.9375rem;
+            margin-right: -0.9375rem;
+            margin-top: -1.3rem;
+            padding-top: 1px;
+        }
 
- .green-box p {
- 	  margin-left: 0.9375rem;
-    margin-right: 0.9375rem;
-    margin-top: 0.9375rem;
- }
+        .green-box a {
+            color: white;
+        }
 
-body .wooslider .wooslider-control-nav {
-	display: none;
-}
+        .green-box p {
+            margin-left: 0.9375rem;
+            margin-right: 0.9375rem;
+            margin-top: 0.9375rem;
+        }
 
-#footer-container #footer,
-#footer-container #footer a {
-	color: white;
-}
+        body .wooslider .wooslider-control-nav {
+            display: none;
+        }
 
-.container h1 {
-    font-size: 1.5rem;
-}
+        #footer-container #footer,
+        #footer-container #footer a {
+            color: white;
+        }
 
-.homepage-icons {
-	font-size: 4rem;
-	padding: 0 5px;
-    
-}
+        .container h1 {
+            font-size: 1.5rem;
+        }
 
-.left-side-bar-area {
-	background: #e1eae7;
-	padding-top: 10px;
-}
+        .homepage-icons {
+            font-size: 4rem;
+            padding: 0 5px;
+
+        }
+
+        .left-side-bar-area {
+            background: #e1eae7;
+            padding-top: 10px;
+        }
 
 
-.left-side-bar-area ul {
-	list-style: none;
-}
+        .left-side-bar-area ul {
+            list-style: none;
+        }
 
-.left-side-bar-area ul a {
-	color: #5E6959 !important;
-}
+        .left-side-bar-area ul a {
+            color: #5E6959 !important;
+        }
 
-.left-side-bar-area ul a:hover,
-.left-side-bar-area ul a:active,
-.left-side-bar-area ul a:focus {
-	background: #C3D6D0;
-	color: white !important;
-}
+        .left-side-bar-area ul a:hover,
+        .left-side-bar-area ul a:active,
+        .left-side-bar-area ul a:focus {
+            background: #C3D6D0;
+            color: white !important;
+        }
 
-/*.container hr {
+        /*.container hr {
 	border: 0 !important;
     height: 3px;
     color: #5E6959 !important;
@@ -127,173 +129,205 @@ body .wooslider .wooslider-control-nav {
     width: 100% !important;
 }*/
 
-hr .socialHR {
-    border: solid #5E6959;
-    height: 3px;
-}
+        hr .socialHR {
+            border: solid #5E6959;
+            height: 3px;
+        }
 
 
-#social-media {
-	border-left: 5px solid #8DC63F; 
-	padding-left: 1em; 
-	padding-bottom: 1em;
-	margin-bottom: 1em;
-}
+        #social-media {
+            border-left: 5px solid #8DC63F;
+            padding-left: 1em;
+            padding-bottom: 1em;
+            margin-bottom: 1em;
+        }
 
-#social-media span {
-	font-weight:600;
-}
+        #social-media span {
+            font-weight: 600;
+        }
 
-#social-media i {
-	padding-right: 5px;
-}
+        #social-media i {
+            padding-right: 5px;
+        }
 
-@media (min-width: 1150px) {
-.large-3 {
-    width: 22%;
-}
+        @media (min-width: 1150px) {
+            .large-3 {
+                width: 22%;
+            }
 
-.large-9 {
-    width: 78%;
-}
-}
+            .large-9 {
+                width: 78%;
+            }
+        }
 
-h1, h2, h3, h4, h5, p, ul, ol, li, span, a, div {
-	font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;
-}
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        p,
+        ul,
+        ol,
+        li,
+        span,
+        a,
+        div {
+            font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;
+        }
 
-p, blockquote, blockquote p, div, b {
-	color: #5E6959;
-}
+        p,
+        blockquote,
+        blockquote p,
+        div,
+        b {
+            color: #5E6959;
+        }
 
-blockquote, blockquote p {
-    line-height: 1.6;
-    color: #5E6959;
-    border: none;
-}
+        blockquote,
+        blockquote p {
+            line-height: 1.6;
+            color: #5E6959;
+            border: none;
+        }
 
-#sidebar p {
-	color: #9BBBB0;
-}
+        #sidebar p {
+            color: #9BBBB0;
+        }
 
-.wooslider p {
-    color: #fff;
- }
+        .wooslider p {
+            color: #fff;
+        }
 
- .wooslider a {
- 	color: #8DC63F;
- 	text-decoration: underline;
- }
-.news-archive a {
-	color: #8DC63F;
-}
-.news-archive ul {
-	list-style: none;
-    margin-left: 0 !important;
-}
+        .wooslider a {
+            color: #8DC63F;
+            text-decoration: underline;
+        }
 
-.news-archive ul:hover {
-	text-decoration: underline;
-}
+        .news-archive a {
+            color: #8DC63F;
+        }
 
-.call-out-text {
-	color: #00aaa1;
-    font-family: lucida, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 1.25em;
-}
+        .news-archive ul {
+            list-style: none;
+            margin-left: 0 !important;
+        }
 
-.greenline {
-	color: #00aaa1;
-    width: 30%;
-    border: 0 !important;
-    background-color: #00aaa1;
-    height: 3px;
-    margin: 0 auto;
-    clear: both;
-}
-.visual-form-builder fieldset {
-    clear: both;
-    margin: 0;
-    padding: 0;
-    border: none;
-    border-radius: 0;
-    background-color: #fff;
-}
+        .news-archive ul:hover {
+            text-decoration: underline;
+        }
 
-.page-title {
-        color: #00aaa1;
-    font-family: lucida, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 1.25em !important;
-}
+        .call-out-text {
+            color: #00aaa1;
+            font-family: lucida, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 1.25em;
+        }
 
-.about_menu ul {
-    text-decoration: none;
-    list-style: none;
-    padding-top: 10px;
-    padding-bottom: 15px;
-    margin-left: 0;
-}
+        .greenline {
+            color: #00aaa1;
+            width: 30%;
+            border: 0 !important;
+            background-color: #00aaa1;
+            height: 3px;
+            margin: 0 auto;
+            clear: both;
+        }
 
-.about_menu a {
-    float: left;
-    padding-right: 15px;
-    color: #afc9c0;
-    font-family: lucida, Helvetica, sans-serif;
-    font-size: 1.1em;
-}
+        .visual-form-builder fieldset {
+            clear: both;
+            margin: 0;
+            padding: 0;
+            border: none;
+            border-radius: 0;
+            background-color: #fff;
+        }
 
-.about_menu a:hover {
-    text-decoration: underline;
-}
+        .page-title {
+            color: #00aaa1;
+            font-family: lucida, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 1.25em !important;
+        }
 
-.about_menu .current-menu-item a {
-    font-size: 8rem;
-    font-size: 1.1em;
-    color: #5E6959 !important; 
-    font-weight: bold;
-    font-family: lucida, Helvetica, sans-serif;
-}
+        .about_menu ul {
+            text-decoration: none;
+            list-style: none;
+            padding-top: 10px;
+            padding-bottom: 15px;
+            margin-left: 0;
+        }
 
-.row article header h1 {
-    padding-top: 0px;
-}
+        .about_menu a {
+            float: left;
+            padding-right: 15px;
+            color: #afc9c0;
+            font-family: lucida, Helvetica, sans-serif;
+            font-size: 1.1em;
+        }
 
+        .about_menu a:hover {
+            text-decoration: underline;
+        }
 
-.page-bar, .page-bar .top-bar-section ul li>a, .page-bar .top-bar-section ul li>a:hover, .page-bar .top-bar-section li:not(.has-form) a:not(.button), .page-bar .top-bar-section li:not(.has-form) a:not(.button):hover {
-    background: url(//www.marshall.edu/foundation/files/menu_background.png);
-}
+        .about_menu .current-menu-item a {
+            font-size: 8rem;
+            font-size: 1.1em;
+            color: #5E6959 !important;
+            font-weight: bold;
+            font-family: lucida, Helvetica, sans-serif;
+        }
+
+        .row article header h1 {
+            padding-top: 0px;
+        }
 
 
-#main-page-nav .row {
-    background-color: #5F9638;
-    background: url(//www.marshall.edu/foundation/files/menu_background.png) !important;
-    height: 3em;
-}
+        .page-bar,
+        .page-bar .top-bar-section ul li>a,
+        .page-bar .top-bar-section ul li>a:hover,
+        .page-bar .top-bar-section li:not(.has-form) a:not(.button),
+        .page-bar .top-bar-section li:not(.has-form) a:not(.button):hover {
+            background: url(//www.marshall.edu/foundation/files/menu_background.png);
+        }
 
- </style>
 
-	</head>
-	<body <?php body_class(); ?>>
-	<?php do_action( 'foundationpress_after_body' ); ?>
+        #main-page-nav .row {
+            background-color: #5F9638;
+            background: url(//www.marshall.edu/foundation/files/menu_background.png) !important;
+            height: 3em;
+        }
+    </style>
 
-	<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) == 'offcanvas' ) : ?>
+</head>
 
-	<div class="off-canvas-wrap" data-offcanvas>
-	<div class="inner-wrap">
-	<?php endif; ?>
+<body <?php body_class(); ?>>
+    <div>
+        <div style="padding: 1.5rem; width: 100%; background: #000;">
+            <div style="max-width: 85rem!important; margin-right: auto;
+margin-left: auto;">
+                <div style="font-weight: bold; font-size: 1.25rem;text-transform: uppercase; color: #fff!important">Important Information on COVID-10</div>
+                <a href="https://www.herdalum.com/controls/email_marketing/view_in_browser.aspx?sid=1269&gid=1&sendId=1212219&ecatid=12&puid=dd923eb1-9aa0-4759-8951-b6c72406dad5&fbclid=IwAR1WKINVCPwpQfTZ_8fBQdAFd00YN6NJB94aVEhz1uaI9muXFQAOet9yiEQ" style="color: white!important; text-decoration: underline">Important message from the Marshall University Foundation and Marshall University Alumni Association regarding COVID-19.</a>
+            </div>
+        </div>
+    </div>
+    <?php do_action('foundationpress_after_body'); ?>
 
-	<?php do_action( 'foundationpress_layout_start' ); ?>
+    <?php if (!get_theme_mod('wpt_mobile_menu_layout') || get_theme_mod('wpt_mobile_menu_layout') == 'offcanvas') : ?>
 
-	<?php
+        <div class="off-canvas-wrap" data-offcanvas>
+            <div class="inner-wrap">
+            <?php endif; ?>
 
-		if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) == 'offcanvas' ) :
-		get_template_part( 'parts/off-canvas-menu' );
-		endif;
-	?>
+            <?php do_action('foundationpress_layout_start'); ?>
 
-	<?php get_template_part( 'parts/top-bar' ); ?>
+            <?php
 
-<section class="container" role="document">
-	<?php do_action( 'foundationpress_after_header' ); ?>
+            if (!get_theme_mod('wpt_mobile_menu_layout') || get_theme_mod('wpt_mobile_menu_layout') == 'offcanvas') :
+                get_template_part('parts/off-canvas-menu');
+            endif;
+            ?>
+
+            <?php get_template_part('parts/top-bar'); ?>
+
+            <section class="container" role="document">
+                <?php do_action('foundationpress_after_header'); ?>
