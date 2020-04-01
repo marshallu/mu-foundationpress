@@ -24,6 +24,10 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/apple-touch-icon-72x72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/apple-touch-icon-precomposed.png">
 
+    <link rel='stylesheet' id='foundation-icon-css' href='<?php echo get_stylesheet_directory_uri(); ?>/easy-foundation-shortcodes/styles/foundation-icons.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='foundation-norm-css' href='<?php echo get_stylesheet_directory_uri(); ?>/easy-foundation-shortcodes/styles/5/normalize.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='foundation-css' href='<?php echo get_stylesheet_directory_uri(); ?>/easy-foundation-shortcodes/styles/5/foundation.min.css' type='text/css' media='all' />
+    <script type='text/javascript' src='<?php echo get_stylesheet_directory_uri(); ?>/easy-foundation-shortcodes/js/5/vendor/custom.modernizr.js'></script>
     <?php wp_head(); ?>
 
     <style>
