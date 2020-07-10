@@ -310,7 +310,7 @@
             <div style="max-width: 85rem!important; margin-right: auto;
 margin-left: auto;">
                 <div style="font-weight: bold; font-size: 1.25rem;text-transform: uppercase; color: #fff!important">Important Information on COVID-10</div>
-                <a href="https://www.herdalum.com/controls/email_marketing/view_in_browser.aspx?sid=1269&gid=1&sendId=1212219&ecatid=12&puid=dd923eb1-9aa0-4759-8951-b6c72406dad5&fbclid=IwAR1WKINVCPwpQfTZ_8fBQdAFd00YN6NJB94aVEhz1uaI9muXFQAOet9yiEQ" style="color: white!important; text-decoration: underline">Important message from the Marshall University Foundation and Marshall University Alumni Association regarding COVID-19.</a>
+                <a href="https://www.herdalum.com/4369-2" style="color: white!important; text-decoration: underline">Important message from the Marshall University Foundation and Marshall University Alumni Association regarding COVID-19.</a>
             </div>
         </div>
     </div>
