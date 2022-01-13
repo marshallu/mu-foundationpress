@@ -316,16 +316,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WRVRH87"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-
-    <div>
-        <div style="padding: 1.5rem; width: 100%; background: #000;">
-            <div style="max-width: 85rem!important; margin-right: auto;
-margin-left: auto;">
-                <div style="font-weight: bold; font-size: 1.25rem;text-transform: uppercase; color: #fff!important">Important Information on COVID-10</div>
-                <a href="https://www.herdalum.com/4369-2" style="color: white!important; text-decoration: underline">Important message from the Marshall University Foundation and Marshall University Alumni Association regarding COVID-19.</a>
-            </div>
-        </div>
-    </div>
     <?php do_action('foundationpress_after_body'); ?>
 
     <?php if (!get_theme_mod('wpt_mobile_menu_layout') || get_theme_mod('wpt_mobile_menu_layout') == 'offcanvas') : ?>
